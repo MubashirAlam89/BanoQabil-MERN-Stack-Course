@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #b8bfc4a3 0%, #878e91a1 100%);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+  color: rgba(0, 0, 0, 0.777);
+  text-decoration: underline;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+  padding: 60px 30px 60px 30px;
+}
+.container > div {
+  min-width: 300px;
+  max-width: 400px;
+}
+
+img {
+  width: 100%;
+}
