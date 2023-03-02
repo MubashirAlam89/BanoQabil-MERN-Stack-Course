@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+nav {
+  background-color: #f9f9f9;
+  border-bottom: 3px solid #003ce5;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  padding: 15px 0 5px 0;
+}
+a {
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  text-align: center;
+  padding: 150px 40px 40px 40px;
+  overflow-y: auto;
+}
+.img-box {
+  min-width: 300px;
+  max-width: 600px;
+}
+.evelope-img {
+  width: 100%;
+}
+h1 {
+  font-weight: 600;
+}
+h3 {
+  margin-top: 5px;
+}
+p {
+  font-size: 18px;
+}
+.subs-now-btn-box {
+  padding: 5px 0;
+}
+.subs-now-btn {
+  background-color: #003ce5;
+  color: #f9f9f9;
+  cursor: pointer;
+  padding: 12px 20px;
+  border-radius: 300px;
+  border: none;
+  transition: all 200ms;
+  font-size: 13px;
+}
+.subs-now-btn:hover {
+  background-color: #f9f9f9;
+  color: #003ce5;
+  outline: 1px solid #003ce5;
+}
+.subs-now-btn:active {
+  background-color: #003ce5;
+  color: #f9f9f9;
+}
