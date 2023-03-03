@@ -14,6 +14,6 @@ You have to create a page that is an email template.
 
 You have to create an infographic or you can say simple words on a page for data.
 
-### <span>&#10003; </span> Completed
+### <span>&#10003;</span> Completed
 
 <a target="_blank" href="https://banoqabilassignment2task2.netlify.app/" > Click here To Check.</a>
