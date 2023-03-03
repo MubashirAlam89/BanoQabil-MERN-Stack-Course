@@ -4,4 +4,4 @@ Interactive Infographic: Create an interactive infographic using CSS that presen
 
 ### <span>&#10003;</span> Completed
 
-<a target="_blank" href="https://banoqabilassignment2task1.netlify.app/" > Click here To Check</a>
+<a target="_blank" href="https://banoqabilassignment2task2.netlify.app/" > Click here To Check</a>
