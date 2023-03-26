@@ -7,5 +7,27 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Even & Odd Checker</title>
   </head>
-  <body></body>
+  <body>
+    <h1
+      class="mx-auto max-sm:text-2xl font-semibold text-center text-3xl mt-10"
+    >
+      Even & Odd Number Checker
+    </h1>
+    <div
+      class="w-96 max-sm:w-80 mt-4 mx-auto flex text-xl max-sm:text-lg justify-center items-center bg-slate-700 p-6 rounded-xl shadow-2xl"
+    >
+      <input
+        class="w-full py-2 px-3 rounded-l-lg"
+        type="number"
+        placeholder="Enter a number..."
+        id="num-inp"
+      />
+      <button
+        onclick="check()"
+        class="px-4 py-2 rounded-r-lg text-white bg-teal-700 hover:bg-teal-600 active:bg-teal-700 transition-all"
+      >
+        Check
+      </button>
+    </div>
+  </body>
 </html>
