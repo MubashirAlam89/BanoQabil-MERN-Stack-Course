@@ -8,5 +8,32 @@
 
     <title>18+ Checker</title>
   </head>
-  <body></body>
+  <body>
+    <h1 class="mx-auto text-center text-3xl mt-10 font-semibold">
+      18+ Checker
+    </h1>
+    <div
+      class="w-96 max-sm:w-80 mt-4 mx-auto flex flex-col text-xl gap-5 justify-center items-center bg-slate-700 p-8 rounded-xl shadow-2xl"
+    >
+      <input
+        class="w-full py-2 px-3 rounded-lg"
+        type="text"
+        placeholder="Enter your name..."
+        maxlength="35"
+        id="name-inp"
+      />
+      <input
+        class="w-full py-2 px-3 rounded-lg"
+        type="number"
+        placeholder="Enter your age..."
+        id="age-inp"
+      />
+      <button
+        onclick="check()"
+        class="px-4 py-2 w-full rounded-lg bg-teal-700 hover:bg-teal-600 active:bg-teal-700 transition-all text-white"
+      >
+        Check
+      </button>
+    </div>
+  </body>
 </html>
