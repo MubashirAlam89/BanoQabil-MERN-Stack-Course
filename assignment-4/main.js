@@ -14,7 +14,10 @@ function sumOfEvenNumbers(_arr) {
 }
 
 console.log(
-  "Sum of even number inside the array is equal to " + sumOfEvenNumbers(arr)
+  `Sum of even number inside the array "[${arr}]" is equal to "${sumOfEvenNumbers(
+    arr
+  )}"
+`
 );
 // *********************** Task 1 end ************************************
 
