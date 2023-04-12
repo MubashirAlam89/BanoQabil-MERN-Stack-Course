@@ -142,3 +142,54 @@ console.log("********************************************************");
 // *********************** Task 5 end ************************************
 
 // ************************************************************************
+
+// *********************** Task 6 start ************************************
+
+console.log("************************  Task-5  ***********************");
+
+let students = [
+  {
+    id: 01,
+    name: "Ahasan Hafeez",
+    fatherName: "Muhammad Hafeez",
+    email: "ahsanhafeez@gmail.com",
+    address: "Karachi, Pakistan",
+  },
+  {
+    id: 02,
+    name: "bilal",
+    fatherName: "Arshad",
+    email: "bilal@gmail.com",
+    address: "Karachi, Pakistan",
+  },
+  {
+    id: 03,
+    name: "Ali",
+    fatherName: "Arshad",
+    email: "ali@gmail.com",
+    address: "Karachi, Pakistan",
+  },
+];
+
+function specifiedKeyValues(arr, key) {
+  const values = [];
+  for (let i = 0; i < arr.length; i++) {
+    values.push(arr[i][key]);
+  }
+  return values;
+}
+let specificKey = "name";
+console.log(
+  `
+  array of the values of spcified key ${specificKey} of the array of object ${students} is "${specifiedKeyValues(
+    students,
+    specificKey
+  )}"
+  `
+);
+
+console.log("********************************************************");
+
+// *********************** Task 6 end ************************************
+
+// ************************************************************************
