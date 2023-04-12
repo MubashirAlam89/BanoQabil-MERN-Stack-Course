@@ -24,3 +24,30 @@ console.log(
 // ************************************************************************
 
 console.log("********************************************************");
+
+// *********************** Task 2 start ************************************
+
+console.log("************************  Task-2  ***********************");
+
+let string = "Hello World";
+
+function vowelsCount(_string) {
+  let vowelCount = 0;
+  const vowels = ["a", "e", "i", "o", "u"];
+  for (let i = 0; i < _string.length; i++) {
+    if (vowels.includes(_string[i].toLowerCase())) {
+      vowelCount++;
+    }
+  }
+  return vowelCount;
+}
+
+console.log(
+  `Total number of vowels inside the string "${string}" is equals to "${vowelsCount(
+    string
+  )}"`
+);
+
+console.log("********************************************************");
+
+// *********************** Task 2 end ************************************
