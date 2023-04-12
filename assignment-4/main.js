@@ -15,7 +15,7 @@ function sumOfEvenNumbers(_arr) {
 
 console.log(
   `
-  Sum of even number inside the array "[${arr}]" is equal to "${sumOfEvenNumbers(
+  Sum of even number inside the array "${arr}" is equal to "${sumOfEvenNumbers(
     arr
   )}"
   `
@@ -79,7 +79,7 @@ function maxLength(arr) {
 let _maxlength = maxLength(arr2);
 console.log(
   `
-  longest string inside the array "[${arr2}]" is "${_maxlength.string} & thier length is ${_maxlength.length}"
+  longest string inside the array "${arr2}" is "${_maxlength.string} & thier length is ${_maxlength.length}"
   `
 );
 console.log("********************************************************");
@@ -104,9 +104,41 @@ function average(arr) {
 
 console.log(
   `
-  Average of all numbers inside the array "[${arr3}]" is equals to "${
+  Average of all numbers inside the array "${arr3}" is equals to "${
     average(arr3) / arr3.length
   }"
   `
 );
 console.log("********************************************************");
+
+// *********************** Task 4 end ************************************
+
+// ************************************************************************
+
+// *********************** Task 5 start ************************************
+
+console.log("************************  Task-5  ***********************");
+
+let student = {
+  id: 01,
+  name: "Ali",
+  fatherName: "Arshad",
+  email: "ali@gmail.com",
+  address: "Karachi, Pakistan",
+};
+
+function objectKeys(obj) {
+  return Object.keys(obj);
+}
+
+console.log(
+  `
+  array of keys of the object "${arr3}" is "${objectKeys(student)}"
+  `
+);
+
+console.log("********************************************************");
+
+// *********************** Task 5 end ************************************
+
+// ************************************************************************
