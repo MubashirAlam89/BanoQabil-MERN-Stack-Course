@@ -145,7 +145,7 @@ console.log("********************************************************");
 
 // *********************** Task 6 start ************************************
 
-console.log("************************  Task-5  ***********************");
+console.log("************************  Task-6  ***********************");
 
 let students = [
   {
@@ -181,7 +181,7 @@ function specifiedKeyValues(arr, key) {
 let specificKey = "name";
 console.log(
   `
-  array of the values of spcified key ${specificKey} of the array of object ${students} is "${specifiedKeyValues(
+  array of the values of spcified key ${specificKey} of the object inside the array ${students} is "${specifiedKeyValues(
     students,
     specificKey
   )}"
@@ -191,5 +191,28 @@ console.log(
 console.log("********************************************************");
 
 // *********************** Task 6 end ************************************
+
+// ************************************************************************
+
+// *********************** Task 7 start ************************************
+
+console.log("************************  Task-7  ***********************");
+
+let arr4 = ["a", "b", "c", "d", "e", "f", "a", "b", "c", "d", "e", "f"];
+function getUniqueArr() {
+  let uniqueArr = arr4.filter((e, i) => {
+    return arr4.indexOf(e) === i;
+  });
+  return uniqueArr;
+}
+console.log(
+  `
+ The unique array "${getUniqueArr()}" which is filtered from array "${arr4}"
+  `
+);
+
+console.log("********************************************************");
+
+// *********************** Task 7 end ************************************
 
 // ************************************************************************
