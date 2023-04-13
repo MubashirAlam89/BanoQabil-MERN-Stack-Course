@@ -59,11 +59,11 @@ console.log("********************************************************");
 
 // *********************** Task 3 start ************************************
 
-console.log("************************  Task-2  ***********************");
+console.log("************************  Task-3  ***********************");
 
 let arr2 = ["Pakistan", "India", "Banglades", "Afghanistan"];
 
-function maxLength(arr) {
+function getLongestStr(arr) {
   let longestStr = {
     string: "",
     length: 0,
@@ -76,10 +76,10 @@ function maxLength(arr) {
   }
   return longestStr;
 }
-let _maxlength = maxLength(arr2);
+let longestString = getLongestStr(arr2);
 console.log(
   `
-  Longest string inside the array "${arr2}" is "${_maxlength.string} & thier length is ${_maxlength.length}"
+  Longest string inside the array "${arr2}" is "${longestString.string} & thier length is ${longestString.length}"
   `
 );
 console.log("********************************************************");
@@ -94,7 +94,7 @@ console.log("************************  Task-4  ***********************");
 
 let arr3 = [11, 22, 33, 34, 45, 56, 67, 78, 89, 110];
 
-function average(arr) {
+function getAverage(arr) {
   let sum = 0;
   for (let i = 0; i < arr.length; i++) {
     sum += arr[i];
@@ -105,7 +105,7 @@ function average(arr) {
 console.log(
   `
   Average of all numbers inside the array "${arr3}" is equals to "${
-    average(arr3) / arr3.length
+    getAverage(arr3) / arr3.length
   }"
   `
 );
@@ -127,13 +127,13 @@ let student = {
   address: "Karachi, Pakistan",
 };
 
-function objectKeys(obj) {
+function getObjectKeys(obj) {
   return Object.keys(obj);
 }
 
 console.log(
   `
-  An Array of keys of the object "${arr3}" is "${objectKeys(student)}"
+  An Array of keys of the object "${student}" is "${getObjectKeys(student)}"
   `
 );
 
@@ -171,7 +171,7 @@ let students = [
   },
 ];
 
-function specifiedKeyValues(arr, key) {
+function getSpecificKeyValues(arr, key) {
   const values = [];
   for (let i = 0; i < arr.length; i++) {
     values.push(arr[i][key]);
@@ -181,7 +181,7 @@ function specifiedKeyValues(arr, key) {
 let specificKey = "name";
 console.log(
   `
- An Array of the values of spcified key ${specificKey} of the objects inside the array ${students} is "${specifiedKeyValues(
+ An Array of the values of spcified key ${specificKey} of the objects inside the array ${students} is "${getSpecificKeyValues(
     students,
     specificKey
   )}"
@@ -220,7 +220,7 @@ console.log("********************************************************");
 // *********************** Task 8  start ************************************
 
 console.log("************************  Task-8  ***********************");
-// Function to return the product of all the numbers in an array:
+
 let arr5 = [1, 2, 2, 2, 2, 2, 2, 3, 4];
 function getProduct(arr) {
   let product = 1;
@@ -241,3 +241,5 @@ console.log(
 console.log("********************************************************");
 
 // *********************** Task 8 end ************************************
+
+console.log("************  All Tasks Has Been Completed  ************");
