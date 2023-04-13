@@ -15,7 +15,7 @@ function sumOfEvenNumbers(_arr) {
 
 console.log(
   `
-  Sum of even number inside the array "${arr}" is equal to "${sumOfEvenNumbers(
+  Sum of even numbers inside the array "${arr}" is equals to "${sumOfEvenNumbers(
     arr
   )}"
   `
@@ -79,7 +79,7 @@ function maxLength(arr) {
 let _maxlength = maxLength(arr2);
 console.log(
   `
-  longest string inside the array "${arr2}" is "${_maxlength.string} & thier length is ${_maxlength.length}"
+  Longest string inside the array "${arr2}" is "${_maxlength.string} & thier length is ${_maxlength.length}"
   `
 );
 console.log("********************************************************");
@@ -133,7 +133,7 @@ function objectKeys(obj) {
 
 console.log(
   `
-  array of keys of the object "${arr3}" is "${objectKeys(student)}"
+  An Array of keys of the object "${arr3}" is "${objectKeys(student)}"
   `
 );
 
@@ -181,7 +181,7 @@ function specifiedKeyValues(arr, key) {
 let specificKey = "name";
 console.log(
   `
-  array of the values of spcified key ${specificKey} of the object inside the array ${students} is "${specifiedKeyValues(
+ An Array of the values of spcified key ${specificKey} of the objects inside the array ${students} is "${specifiedKeyValues(
     students,
     specificKey
   )}"
@@ -216,3 +216,28 @@ console.log("********************************************************");
 // *********************** Task 7 end ************************************
 
 // ************************************************************************
+
+// *********************** Task 8  start ************************************
+
+console.log("************************  Task-8  ***********************");
+// Function to return the product of all the numbers in an array:
+let arr5 = [1, 2, 2, 2, 2, 2, 2, 3, 4];
+function getProduct(arr) {
+  let product = 1;
+  for (let i = 0; i < arr.length; i++) {
+    product *= arr[i];
+  }
+  return product;
+}
+
+console.log(
+  `
+ Product of all numbers inside the array "${arr5}" is equals to "${getProduct(
+    arr5
+  )}"
+  `
+);
+
+console.log("********************************************************");
+
+// *********************** Task 8 end ************************************
